@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateChildActivity">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/createNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_name" />
+    <EditText
+        android:id="@+id/createName"
+        android:width="50dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/createTeamView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_team"
+         />
+    <EditText
+        android:id="@+id/createTeam"
+        android:width="50dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/createCabinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_cabin"
+         />
+    <EditText
+        android:id="@+id/createCabin"
+        android:width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/createChildB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_button"
+        android:onClick="insertChild"
+        />
+
+</GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

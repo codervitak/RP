@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tableActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tableName"
+                android:text="@string/table_name"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tableTeam"
+                android:text="@string/table_team"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tableCabin"
+                android:text="@string/table_cabin"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tablePoints"
+                android:text="@string/table_points"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CabinRatter</string>
+    <string name="main_title">Cabin Ratter</string>
+    <string name="button_rate">Rate</string>
+    <string name="button_table">Table with ratings</string>
+    <string name="button_reset">Reset</string>
+    <string name="table_name">Name</string>
+    <string name="table_points">Points</string>
+    <string name="table_team">Team</string>
+    <string name="table_cabin">Cabin</string>
+    <string name="rate_addChild">Add new child</string>
+    <string name="create_name">Name</string>
+    <string name="create_team">Team</string>
+    <string name="create_cabin">Cabin</string>
+    <string name="create_button">Create a new child</string>
+</resources>
